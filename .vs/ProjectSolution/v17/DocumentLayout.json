@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6094F7E5-C453-4BE8-9E75-DCCC4521087C}|ProjectBusiness\\ProjectBusiness.csproj|c:\\users\\asus\\desktop\\task 1\\project\\projectbusiness\\weaponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6094F7E5-C453-4BE8-9E75-DCCC4521087C}|ProjectBusiness\\ProjectBusiness.csproj|solutionrelative:projectbusiness\\weaponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF14C996-C975-4294-A73A-521FB3A6A305}|ProjectData\\ProjectData.csproj|c:\\users\\asus\\desktop\\task 1\\project\\projectdata\\weapondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF14C996-C975-4294-A73A-521FB3A6A305}|ProjectData\\ProjectData.csproj|solutionrelative:projectdata\\weapondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF440CDF-5DFF-48B3-AC43-A8288F72DDCD}|ProjectCS\\ProjectCS.csproj|c:\\users\\asus\\desktop\\task 1\\project\\projectcs\\entities\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF440CDF-5DFF-48B3-AC43-A8288F72DDCD}|ProjectCS\\ProjectCS.csproj|solutionrelative:projectcs\\entities\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +46,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeaponService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\ProjectBusiness\\WeaponService.cs",
+              "RelativeDocumentMoniker": "ProjectBusiness\\WeaponService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\ProjectBusiness\\WeaponService.cs",
+              "RelativeToolTip": "ProjectBusiness\\WeaponService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T18:11:03.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WeaponDb.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\ProjectData\\WeaponDb.cs",
+              "RelativeDocumentMoniker": "ProjectData\\WeaponDb.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\ProjectData\\WeaponDb.cs",
+              "RelativeToolTip": "ProjectData\\WeaponDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T18:09:28.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FireMode.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\ProjectCS\\Enums\\FireMode.cs",
               "RelativeDocumentMoniker": "ProjectCS\\Enums\\FireMode.cs",
@@ -50,13 +84,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\ProjectCS\\Entities\\Weapon.cs",
               "RelativeDocumentMoniker": "ProjectCS\\Entities\\Weapon.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\ProjectCS\\Entities\\Weapon.cs",
               "RelativeToolTip": "ProjectCS\\Entities\\Weapon.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAgAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T06:44:59.131Z",
               "EditorCaption": ""

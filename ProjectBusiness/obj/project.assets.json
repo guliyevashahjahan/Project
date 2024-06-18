@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "ProjectCS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ProjectCS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjectCS.dll": {}
+        }
+      },
+      "ProjectData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ProjectCS": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProjectData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjectData.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ProjectCS/1.0.0": {
+      "type": "project",
+      "path": "../ProjectCS/ProjectCS.csproj",
+      "msbuildProject": "../ProjectCS/ProjectCS.csproj"
+    },
+    "ProjectData/1.0.0": {
+      "type": "project",
+      "path": "../ProjectData/ProjectData.csproj",
+      "msbuildProject": "../ProjectData/ProjectData.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "ProjectCS >= 1.0.0",
+      "ProjectData >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ASUS\\.nuget\\packages\\": {},
@@ -39,7 +77,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\ProjectCS\\ProjectCS.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\ProjectCS\\ProjectCS.csproj"
+            },
+            "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\ProjectData\\ProjectData.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\Task 1\\Project\\ProjectData\\ProjectData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
